@@ -1,15 +1,10 @@
+from funcoes import *
 try:
     f = open('dados.txt')
     f.close()
 except:
     f = open('dados.txt','a')
     f.close()
-
-
-
-
-    arquivo_dados.close()
-
 
 
 escolha = 1
@@ -27,21 +22,15 @@ while escolha != 0:
     escolha = int(input('escolha sua opção: '))
 
     if escolha == 1:
-        cpf = str(input('Digite o cpf do cliente: '))
-        nome = str(input('Digite o nome do cliente: '))
-        arquivo_dados = open('dados.txt', 'r')
-        cont = 0
-        for linha in arquivo_dados:
-            dados = linha.split()
-            if dados[2] == cpf:
-                cont += 1
-        arquivo_dados.close()
-        if cont == 1:
-            print('cpf ja cadastado')
-        else:
-            arquivo_dados = open('dados.txt', 'a')
-            arquivo_dados.write(f'1 {nome} {cpf}')
-            arquivo_dados.close()
-            
+        try:
+            cpf = str(input('Digite o cpf do cliente: '))
+            assert len(cpf) == 11
+            assert cpf.isnumeric() == True
+            nome = str(input('Digite o nome do cliente: ')).capitalize()
+            cadastrar_clientes(nome,cpf)
+        except AssertionError:
+            print('cpf invalido')
 
-        
+    if escolha == 2:
+        codigo = int(input('Digite o codigo da maquina: '))
+
