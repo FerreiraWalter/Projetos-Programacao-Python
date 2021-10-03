@@ -82,5 +82,4 @@ for n in range(0,5):
         print('bola ganhou')
         break
 
-async    
 
