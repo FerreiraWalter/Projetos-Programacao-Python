@@ -1,10 +1,24 @@
 from funcoes import *
 try:
-    f = open('dados.txt')
+    f = open('dados_pessoas.txt')
+    f.write('\n')
     f.close()
 except:
-    f = open('dados.txt','a')
+    f = open('dados_pessoas','a')
+    f.write('\n')
     f.close()
+try:
+    f = open('dados_maquinas.txt')
+    f.write('\n')
+    f.close()
+except:
+    f = open('dados_maquinas.txt','a')
+    f.write('\n')
+    f.close()
+
+
+
+
 
 
 escolha = 1
@@ -32,5 +46,26 @@ while escolha != 0:
             print('cpf invalido')
 
     if escolha == 2:
-        codigo = int(input('Digite o codigo da maquina: '))
+        try:
+            codigo = int(input('Digite o codigo da maquina: '))
+            tipo = int(input('''
+            1 - Perfurador
+            2 - Demolidor
+            3 - Compactador
+            insira a opção desejada: '''))
+            marca = str(input('Digite a marca da maquina: '))
+            modelo = str(input('Digite o modelo da maquina: '))
+            ano = int(input('Digite o ano da maquina: '))
+            valor = float(input('Digite o valor do aluguel da maquina: '))
+            status = int(input('''
+                1 - disponivel
+                2 - indisponivel
+                Digite a opção desejada: 
+            '''))
+            cadastrar_maquina(codigo,tipo,marca,modelo,ano,valor,status)
+            
+        except:
+            print('informação invalida')
+
+
 
