@@ -104,3 +104,26 @@ Status:{status}
 ========''')
         except:
             pass
+
+def relatorios_reservas():
+
+
+
+
+    print('Relatorio de reservas')
+    arquivo = open('dados_maquinas.txt', 'r')
+    for n in arquivo:
+        dados = n.split()
+        try:
+            if int(dados[1]) == 1:
+                tipo = 'Perfurador'
+            elif int(dados[1]) == 2:
+                tipo = 'Demolidor'
+            elif int(dados[2]) == 3:
+                tipo = 'Compactador'
+        except :
+            pass
+        try:
+            print(f'Nome:{dados[7]}-----Codigo:{dados[0]}----Tipo:{tipo}----Valor:R${dados[5]}')
+        except:
+            pass

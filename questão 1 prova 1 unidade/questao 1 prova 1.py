@@ -73,4 +73,6 @@ while escolha != 0:
         relatorio_clientes()
     if escolha == 5:
         relatorio_maquinas()
+    if escolha == 6:
+        relatorios_reservas()
 

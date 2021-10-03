@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8bf2f8ef-ed39-489b-8ed6-f6c2629941c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/dados_maquinas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/dados_maquinas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/funcoes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/questao 1 prova 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/questao 1 prova 1.py" afterDir="false" />
     </list>
@@ -128,7 +129,7 @@
       <updated>1633263646221</updated>
       <workItem from="1633263648376" duration="10763000" />
       <workItem from="1633281952326" duration="8663000" />
-      <workItem from="1633295229761" duration="3282000" />
+      <workItem from="1633295229761" duration="5047000" />
     </task>
     <servers />
   </component>
@@ -151,7 +152,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Projetos_Programacao$questao_1_prova_1.coverage" NAME="questao 1 prova 1 Coverage Results" MODIFIED="1633298745950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/questão 1 prova 1 unidade" />
+    <SUITE FILE_PATH="coverage/Projetos_Programacao$questao_1_prova_1.coverage" NAME="questao 1 prova 1 Coverage Results" MODIFIED="1633301475732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/questão 1 prova 1 unidade" />
     <SUITE FILE_PATH="coverage/Projetos_Programacao$teste.coverage" NAME="teste Coverage Results" MODIFIED="1633288729022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/questão 1 prova 1 unidade" />
     <SUITE FILE_PATH="coverage/Projetos_Programacao$jogo.coverage" NAME="jogo Coverage Results" MODIFIED="1633266140710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jogo da velha" />
   </component>
