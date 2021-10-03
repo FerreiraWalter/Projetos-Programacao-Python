@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf2f8ef-ed39-489b-8ed6-f6c2629941c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/qeuestao 2 prova 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/dados_maquinas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/dados_maquinas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/dados_pessoas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/dados_pessoas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/funcoes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/qeuestao 2 prova 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/questao 2 prova 1/qeuestao 2 prova 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questão 1 prova 1 unidade/questao 1 prova 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/questão 1 prova 1 unidade/questao 1 prova 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yurig\Documents\GitHub\Projetos-Programacao\questao 2 prova 1" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.questao 1 prova 1">
     <configuration name="jogo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -86,9 +92,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projetos-Programacao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/questão 1 prova 1 unidade" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/questão 1 prova 1 unidade/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.questao 1 prova 1" />
+        <item itemvalue="Python.teste" />
         <item itemvalue="Python.jogo" />
       </list>
     </recent_temporary>
@@ -102,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633263646221</updated>
       <workItem from="1633263648376" duration="10763000" />
-      <workItem from="1633281952326" duration="4522000" />
+      <workItem from="1633281952326" duration="8663000" />
     </task>
     <servers />
   </component>
@@ -125,7 +154,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Projetos_Programacao$questao_1_prova_1.coverage" NAME="questao 1 prova 1 Coverage Results" MODIFIED="1633286146934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/questão 1 prova 1 unidade" />
+    <SUITE FILE_PATH="coverage/Projetos_Programacao$questao_1_prova_1.coverage" NAME="questao 1 prova 1 Coverage Results" MODIFIED="1633290237947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/questão 1 prova 1 unidade" />
+    <SUITE FILE_PATH="coverage/Projetos_Programacao$teste.coverage" NAME="teste Coverage Results" MODIFIED="1633288729022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/questão 1 prova 1 unidade" />
     <SUITE FILE_PATH="coverage/Projetos_Programacao$jogo.coverage" NAME="jogo Coverage Results" MODIFIED="1633266140710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jogo da velha" />
   </component>
 </project>

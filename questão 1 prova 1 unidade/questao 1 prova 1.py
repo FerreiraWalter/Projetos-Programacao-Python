@@ -66,6 +66,7 @@ while escolha != 0:
     if escolha == 3:
         
         cpf = str(input('Digite o cpf do cliente: '))
-        codigo = int(input('Digite o codigo da maquina: '))
+        codigo = str(input('Digite o codigo da maquina: '))
         reservar_maquina(cpf,codigo)
+
 
