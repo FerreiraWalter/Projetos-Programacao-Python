@@ -19,7 +19,6 @@ if icone == '0':
     icone_bot = 'X'
 
 
-
 for n in range(0,5):
     os.system('cls')
     print(f'''            [{jogo[0]}] [{jogo[1]}] [{jogo[2]}]
