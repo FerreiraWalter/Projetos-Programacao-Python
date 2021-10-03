@@ -64,3 +64,43 @@ def reservar_maquina(cpf,codigo):
         alterar_linha('dados_maquinas.txt',codigo,f'{maquina} {nome}\n')
     except :
         print('Maquina ja esta reservada')
+
+def relatorio_clientes():
+    print('Relatorio de Clientes')
+    arquivo = open('dados_pessoas.txt', 'r')
+    for n in arquivo:
+        dados = n.split()
+        print(f'Nome:{dados[0]}---CPF:{dados[1]}')
+def relatorio_maquinas():
+    print('Relatorio de maquinas')
+    arquivo = open('dados_maquinas.txt', 'r')
+    for n in arquivo:
+        dados = n.split()
+        try:
+            if int(dados[1]) == 1:
+                tipo = 'Perfurador'
+            elif int(dados[1]) == 2:
+                tipo = 'Demolidor'
+            elif int(dados[2]) == 3:
+                tipo = 'Compactador'
+            if int(dados[6]) == 1:
+                status = 'Disponivel'
+            if int(dados[6]) == 2:
+                status = 'Indisponivel'
+        except:
+            pass
+
+
+        try:
+
+            print(f'''========
+Codigo:{dados[0]}
+Tipo:{tipo}
+Marca:{dados[2]}
+Modelo:{dados[3]}
+Ano:{dados[4]}
+Valor do Aluguel:{dados[5]}        
+Status:{status} 
+========''')
+        except:
+            pass

@@ -69,4 +69,8 @@ while escolha != 0:
         codigo = str(input('Digite o codigo da maquina: '))
         reservar_maquina(cpf,codigo)
 
+    if escolha == 4:
+        relatorio_clientes()
+    if escolha == 5:
+        relatorio_maquinas()
 
