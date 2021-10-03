@@ -1,19 +1,15 @@
 from funcoes import *
 try:
     f = open('dados_pessoas.txt')
-    f.write('\n')
     f.close()
 except:
-    f = open('dados_pessoas','a')
-    f.write('\n')
+    f = open('dados_pessoas.txt','a')
     f.close()
 try:
-    f = open('dados_maquinas.txt')
-    f.write('\n')
+    f = open('dados_maquinas.txt.txt')
     f.close()
 except:
     f = open('dados_maquinas.txt','a')
-    f.write('\n')
     f.close()
 
 
@@ -66,6 +62,31 @@ while escolha != 0:
             
         except:
             print('informação invalida')
+    
+    if escolha == 3:
+        cont = -1
+        cpf = str(input('Digite o cpf do cliente: '))
+        codigo = int(input('Digite o codigo da maquina: '))
+        dados_temp_maquinas = []
+        dados_temp_pessoas = []
+        arquivo_maquinas = open('dados_maquinas.txt', 'r')
+        arquivo_pessoas = open('dados_pessoas.txt', 'r')
+        for n in arquivo_maquinas:
+            dados2 = n.split()
+            dados_temp_maquinas.append(
+                f'{dados2[0]} {dados2[1]} {dados2[2]} {dados2[3]} {dados2[4]} {dados2[5]} 1\n')
+            for linha in arquivo_pessoas:
+                dados = linha.split()
+                dados_temp_pessoas.append(f'{dados[0]} {dados[1]}')
+                cont += 1
+                if int(dados2[6]) == 1:
+                    if int(dados2[0]) == int(codigo) and int(dados[1]) == int(cpf):
+                        dados_temp_maquinas[cont] = f'{dados2[0]} {dados2[1]} {dados2[2]} {dados2[3]} {dados2[4]} {dados2[5]} 2\n'
+                        dados_temp_pessoas[cont] = (f'{dados[0]} {dados[1]} {dados2[0]}')
 
+        arquivo_maquinas.close()
+        arquivo_pessoas.close()
+        print(dados_temp_maquinas)
+        print(dados_temp_pessoas)
 
 
